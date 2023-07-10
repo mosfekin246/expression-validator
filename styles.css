@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-size: 18px;
+    color: aliceblue;
+}
+h3{
+    font-size: 1.5em;
+}
+.container{
+    width: 70%;
+    min-width: 500px;
+    background-color: rgb(86, 173, 69);
+    margin: 2em auto;
+    padding-bottom: 5em;
+    padding-top: 3em;
+    text-align: center;
+}
+
+.links{
+    text-align: start;
+    margin: auto;
+    width:30%;
+    border: none;
+    display: block;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.email,.postal-code,.phone-no{
+    background-color: rgb(224, 141, 141);
+    width: 70%;
+    margin: 2em auto;
+    /* padding-top: 2em; */
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+#code{
+    width: 40%;
+    min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: aqua; */
+}
+input, .submit{
+    border: none;
+    display: block;
+    border-radius: 3px;
+    margin: 0.7em auto;
+    padding: 0.5em;
+}
+.submit{
+    background-color: rgb(60, 190, 60);
+    color: aliceblue;
+    width: 100px;
+}
+
+.home{
+    width: 60px;
+    background-color: rgb(151, 151, 224);
+    text-align: center;
+    color: white;
+}
